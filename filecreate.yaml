@@ -1,0 +1,7 @@
+---
+- hosts: linux
+  tasks:
+  - name: create sesnstive file
+    copy:
+      content="This file contains senstive information"
+      dest=/home/ansible/sessitive.txt
