@@ -1,5 +1,5 @@
 ---
-- hosts: linux
+- hosts: all
   tasks:
   - name: create sesnstive file
     copy:
